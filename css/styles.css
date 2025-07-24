@@ -34,6 +34,21 @@ ul, ol {
 section {
     padding: 120px 0;
 }
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+/* /* header-page */
+
+.header-page {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-logo {
+    display: flex;
+}   
 
 .first-logo {
     font-family: "Raleway", sans-serif;
@@ -43,6 +58,10 @@ section {
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: #4d5ae5;
+    margin-top: 24px;
+    margin-right: 76px;
+    margin-bottom: 24px;
+    margin-left: 156px;
 }
 
 .first-web {
@@ -50,16 +69,37 @@ section {
     font-weight: 700;
     letter-spacing: 0.03em;
 }
+
+.nav-list {
+    display: flex;
+    gap: 40px;
+    margin-top: 24px;
+}
+
 .menu {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    display: flex;
 }
+
 .menu:focus
 .menu:hover {
     color: #404bbf;
 }
+.address {
+    font-style: normal;
+    display: flex;
+}
+
+.contact-list {
+    display: flex;
+    margin-left: auto;
+    padding-top: 0;
+    gap: 40px;
+}
+
 .email {
     font-weight: 400;
     font-size: 16px;
@@ -73,20 +113,24 @@ section {
     color: #404BBF;
 }
 
-.address {
-    font-style: normal;
-}
+
+/* hero */
 .main-header {
     font-weight: 700;
+    max-width: 496px;
+    margin: 0 auto;
     color: #FFFFFF;
     line-height: 1.07;
     font-size: 56px;
     text-align: center;
     letter-spacing: 0.02em;
+    margin-top: 188px;
 }
 
 .header-section {
     background-color: #2E2F42;
+    text-align: center;
+
 }
 .order-button {
     font-family: "Roboto", sans-serif;
@@ -96,6 +140,11 @@ section {
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.04em;
+   border: none;
+   border-radius: 4px;
+   padding: 16px 32px;
+   margin-top: 48px;
+   margin-bottom: 188px;
 }
 .header-two {
     color: #FFFFFF;
