@@ -31,6 +31,11 @@ ul, ol {
 	padding-left: 0;
 }
 
+main {
+    flex-grow: 1;
+    min-height: 100vh;
+}
+
 section {
     padding: 120px 0;
 }
@@ -185,6 +190,9 @@ section {
     color: #434455;
     margin-top: 8px;
 }
+
+/* team section */
+
 .our-team {
     font-weight: 700;
     font-size: 36px;
@@ -193,13 +201,28 @@ section {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
-.list {
+.team-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    gap: 24px;
+}
+
+.team-list-item {
+    justify-content: center;
     background-color: #FFFFFF;
+    border-radius: 4px;
+    height: 380px;
 }
 
 .team-section {
     background-color: #F4F4FD;
+    text-align: center;
+}
+.card-content {
+    margin: 32px 16px;
 }
 
 .members {
@@ -208,6 +231,7 @@ section {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding-bottom: 8px;
 }
 .profession {
     font-weight: 400;
@@ -216,7 +240,9 @@ section {
     letter-spacing: 0.02em;
 }
 
-.portfolio {
+/* portfolio section  */
+
+.portfolio-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -224,6 +250,25 @@ section {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    border: #E7E9FC;
+
+}
+.portfolio-list-item {
+    border-radius: 1px;
+    border: #E7E9FC;
+}
+
+.app-content {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left: 17px;
 }
 
 .projects {
@@ -232,6 +277,7 @@ section {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .form {
@@ -244,6 +290,11 @@ section {
 .footer {
     background-color: #2E2F42;
     color: #F4F4FD;
+}
+.footer-text {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-left: 156px;
 }
 .last-logo {
     color: #4d5ae5;
@@ -259,10 +310,12 @@ section {
 }
 
 .last {
+    margin-top: 16px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    max-width: 290px;
 }
 
 .menu:hover {
