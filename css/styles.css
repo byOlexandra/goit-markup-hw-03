@@ -53,6 +53,7 @@ section {
 .header-page {
     display: flex;
     flex-direction: row;
+    border-bottom: 1px solid #e7e9fc
 }
 
 .navbar-logo {
@@ -304,18 +305,21 @@ section {
     line-height: 1.17;
     text-transform: uppercase;
     letter-spacing: 0.03em;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .dark-studio {
     color: #f4f4fd;
 }
 
 .last {
-    margin-top: 16px;
+    
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    max-width: 290px;
+    max-width: 264px;
+    
 }
 
 .menu:hover {
