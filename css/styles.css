@@ -92,8 +92,10 @@ section {
     padding: 24px 0;
     display: block;
 }
+.menu:focus {
+    color: #404bbf;
+}
 
-.menu:focus
 .menu:hover {
     color: #404bbf;
 }
@@ -163,6 +165,11 @@ section {
    margin-right: auto;
 }
 
+.order-button:hover,
+.order-button:focus {
+    background-color: #404BBF;
+}
+
 /* charachteristics */
 
 .characteristics-container {
@@ -198,7 +205,16 @@ section {
 
 /* team section */
 
-.our-team {
+.team-section {
+    background-color: #F4F4FD;
+    text-align: center;
+}
+
+.team-container {
+    padding: 32px 0;
+}
+
+.our-team-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -208,6 +224,7 @@ section {
     color: #2e2f42;
     margin-bottom: 72px;
 }
+
 .team-list {
     display: flex;
     flex-wrap: wrap;
@@ -218,14 +235,10 @@ section {
 .team-list-item {
     justify-content: center;
     background-color: #FFFFFF;
-    border-radius: 4px;
     height: 380px;
+    border-radius: 0px 0px 4px 4px;
 }
 
-.team-section {
-    background-color: #F4F4FD;
-    text-align: center;
-}
 .card-content {
     margin: 32px 16px;
 }
@@ -261,19 +274,21 @@ section {
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    column-gap: 24px;
+    row-gap: 48px;
     border: #E7E9FC;
 
 }
 .portfolio-list-item {
+    width: calc((100% - 48px) / 3);
     border-radius: 1px;
     border: #E7E9FC;
 }
 
 .app-content {
-    margin-top: 32px;
-    margin-bottom: 32px;
-    margin-left: 17px;
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .projects {
@@ -292,13 +307,15 @@ section {
     letter-spacing: 0.02em;
     color: #434455;
 }
+
+/* bottom */
+
 .footer {
     background-color: #2E2F42;
     color: #F4F4FD;
 }
-.footer-text {
-    padding-top: 100px;
-    padding-bottom: 100px;
+.footer-container {
+    padding: 100px 0;
     margin-left: 156px;
 }
 .last-logo {
@@ -312,29 +329,20 @@ section {
     display: inline-block;
     margin-bottom: 16px;
 }
+
 .dark-studio {
     color: #f4f4fd;
 }
 
-.last {
-    
+.bottom-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px;
-    
 }
 
-.menu:hover {
-    color: #404BBF;
-}
-.menu:focus {
-    color: #404BBF;
-}
-.order-button:hover,
-.order-button:focus {
-    background-color: #404BBF;
-}
+
+
 
 
