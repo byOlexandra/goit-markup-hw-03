@@ -159,12 +159,14 @@ section {
    padding: 16px 32px;
    margin-top: 48px;
    margin-bottom: 188px;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 /* charachteristics */
 
 .characteristics-container {
-    display: flex;
+    /* display: flex; */
 }
 .title-two {
     visibility: hidden;
@@ -175,15 +177,15 @@ section {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .characteristics-list {
-    width: calc((100% - 72px) / 4);
+    gap: 24px;
     display: flex;
-    justify-content: space-between;
 }
 
 .characteristics-list-item {
-    row-gap: 24px;
+    width: calc((100% - 72px) / 4);
     justify-content: space-between;
 }
 .definition {
@@ -192,7 +194,6 @@ section {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    margin-top: 8px;
 }
 
 /* team section */
