@@ -175,8 +175,18 @@ section {
 .characteristics-container {
     /* display: flex; */
 }
-.title-two {
-    visibility: hidden;
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .characteristics {
     font-weight: 500;
@@ -241,6 +251,7 @@ section {
 
 .card-content {
     margin: 32px 16px;
+    padding: 32px 0;
 }
 
 .members {
@@ -249,7 +260,7 @@ section {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 .profession {
     font-weight: 400;
@@ -313,9 +324,9 @@ section {
 .footer {
     background-color: #2E2F42;
     color: #F4F4FD;
+    padding: 100px 0;
 }
 .footer-container {
-    padding: 100px 0;
     margin-left: 156px;
 }
 .last-logo {
