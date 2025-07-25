@@ -126,7 +126,13 @@ section {
 
 /* hero */
 
-.main-header {
+.header-section {
+    background-color: #2E2F42;
+    text-align: center;
+    padding: 188px 0;
+}
+
+.main-title {
     font-weight: 700;
     max-width: 496px;
     margin: 0 auto;
@@ -138,12 +144,9 @@ section {
     margin-top: 188px;
 }
 
-.header-section {
-    background-color: #2E2F42;
-    text-align: center;
-
-}
 .order-button {
+    display: block;
+    min-width: 169px;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     background-color: #4D5AE5;
@@ -157,11 +160,13 @@ section {
    margin-top: 48px;
    margin-bottom: 188px;
 }
+
 /* charachteristics */
+
 .characteristics-container {
     display: flex;
 }
-.header-two {
+.title-two {
     visibility: hidden;
 }
 .characteristics {
@@ -172,6 +177,7 @@ section {
     color: #2e2f42;
 }
 .characteristics-list {
+    width: calc((100% - 72px) / 4);
     display: flex;
     justify-content: space-between;
 }
