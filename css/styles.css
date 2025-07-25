@@ -45,19 +45,19 @@ section {
   padding: 0 15px;
 }
 /* /* header-page */
+
 .nav-container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
+
 .header-page {
-    display: flex;
-    flex-direction: row;
     border-bottom: 1px solid #e7e9fc
 }
 
 .navbar-logo {
     display: flex;
+    align-items: center;
 }   
 
 .first-logo {
@@ -68,9 +68,8 @@ section {
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: #4d5ae5;
-    margin-top: 24px;
+    padding: 24px 0;
     margin-right: 76px;
-    margin-bottom: 24px;
     margin-left: 156px;
 }
 
@@ -83,7 +82,6 @@ section {
 .nav-list {
     display: flex;
     gap: 40px;
-    margin-top: 24px;
 }
 
 .menu {
@@ -91,7 +89,8 @@ section {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    /* display: flex; */
+    padding: 24px 0;
+    display: block;
 }
 
 .menu:focus
@@ -100,18 +99,16 @@ section {
 }
 .address {
     font-style: normal;
-    display: flex;
+    margin-left: auto;
 }
 
 .contact-list {
     display: flex;
-    margin-left: auto;
     gap: 40px;
+    align-items: center;
 }
 .contact-list-item {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
+    
 }
 .email {
     font-weight: 400;
@@ -119,7 +116,7 @@ section {
     color: #434455;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    /* display: flex; */
+    padding: 24px 0;
 }
 
 .email:hover,
@@ -127,8 +124,8 @@ section {
     color: #404BBF;
 }
 
-
 /* hero */
+
 .main-header {
     font-weight: 700;
     max-width: 496px;
