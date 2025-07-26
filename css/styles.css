@@ -70,7 +70,6 @@ section {
     color: #4d5ae5;
     padding: 24px 0;
     margin-right: 76px;
-    margin-left: 156px;
 }
 
 .first-web {
@@ -113,6 +112,7 @@ section {
     
 }
 .email {
+    display: block;
     font-weight: 400;
     font-size: 16px;
     color: #434455;
@@ -143,7 +143,6 @@ section {
     font-size: 56px;
     text-align: center;
     letter-spacing: 0.02em;
-    margin-top: 188px;
 }
 
 .order-button {
@@ -160,7 +159,6 @@ section {
    border-radius: 4px;
    padding: 16px 32px;
    margin-top: 48px;
-   margin-bottom: 188px;
    margin-left: auto;
    margin-right: auto;
 }
@@ -173,7 +171,6 @@ section {
 /* charachteristics */
 
 .characteristics-container {
-    /* display: flex; */
 }
 
 .visually-hidden {
@@ -203,7 +200,6 @@ section {
 
 .characteristics-list-item {
     width: calc((100% - 72px) / 4);
-    justify-content: space-between;
 }
 .definition {
     font-weight: 400;
@@ -243,14 +239,11 @@ section {
 }
 
 .team-list-item {
-    justify-content: center;
     background-color: #FFFFFF;
-    height: 380px;
     border-radius: 0px 0px 4px 4px;
 }
 
 .card-content {
-    margin: 32px 16px;
     padding: 32px 0;
 }
 
@@ -287,13 +280,9 @@ section {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    border: #E7E9FC;
-
 }
 .portfolio-list-item {
     width: calc((100% - 48px) / 3);
-    border-radius: 1px;
-    border: #E7E9FC;
 }
 
 .app-content {
